@@ -1,13 +1,14 @@
-body, html {
+body,
+html {
     margin: 0;
     background: linear-gradient(#0C4A6E, #E0F2FE);
     height: 100%;
     color: #F0F9FF;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    text-shadow: 1px 1px 9px black 
+    text-shadow: 1px 1px 9px black
 }
 
 @font-face {
