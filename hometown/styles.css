@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D3557;
+    word-wrap: break-word;
+}
+
+.hero {
+    background: url("https://wty.blob.core.windows.net/cache-tdy/9/1/e/3/c/2/91e3c2d5fc52d067f56f07bb5551fcaad2cc888b.jpg");
+    background-size: cover;
+    background-position: center top -50px;
+    width: 100%;
+    padding: 50px 0 40px 0;
+}
+
+#hero-title {
+    background: #1D3557;
+    border-radius: 10px;
+    font-size: 32px;
+    margin: 140px 180px 10px 180px;
+    padding: 2px 15px;
+    color: #FFFFFF;
+    
+}
+
+#hero-subtitle {
+    background: #457B9D;
+    border-radius: 10px;
+    font-size: 18.72px;
+    padding: 7px 25px;
+    margin: 8px 130px 8px 130px;
+    color: #FFFFFF;
+}
+
+.activities {
+    background: #F1FAEE;
+    padding: 0 0 50px 0;
+}
+
+#activities-title {
+    margin: 0 0 50px 0;
+    padding: 50px 0 0 0;
+}
+
+.activity-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-column {
+    padding: 0 10px 0 10px;
+}
+
+.activity-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.guide {
+    background: #FFFFFF;
+    margin: 0;
+}
+
+#guide-img {
+    width: 180px;
+    border-radius: 10px;
+    margin: 20px 10px 20px 10px;
+}
+
+.guide-card {
+    width: 400px;
+    background: #A8DADC;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    display: flex;
+    border-bottom: 5px solid; 
+}
+
+.guide-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+
+#guide-quote {
+    font-style: italic;
+}
