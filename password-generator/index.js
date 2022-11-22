@@ -3,28 +3,34 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
 
 let passwordOneEl = document.getElementById("password-one");
 let passwordTwoEl = document.getElementById("password-two");
+let passwordOne = "";
+let passwordTwo = "";
+
+function resetPassword() {
+    passwordOneEl.textContent = "";
+    passwordTwoEl.textContent = "";
+
+    passwordOne = "";
+    passwordTwo = "";
+}
 
 function generatePassword() {
-
-    let passwordOne = "";
-    let passwordTwo = "";
-
     for (let i = 0; i < 15; i++) {
         passwordOne += characters[Math.floor(Math.random() * characters.length)];
         passwordTwo += characters[Math.floor(Math.random() * characters.length)];
     }
 
-    passwordOneEl.textContent = passwordOne;
-    passwordTwoEl.textContent = passwordTwo;
+    passwordOneEl.textContent = "•••••••••••••••";
+    passwordTwoEl.textContent = "•••••••••••••••";
 }
 
 
 function copyOnClickOne() {
-    navigator.clipboard.writeText(passwordOneEl.textContent);
+    navigator.clipboard.writeText(passwordOne);
 }
 
 function copyOnClickTwo() {
-    navigator.clipboard.writeText(passwordTwoEl.textContent);
+    navigator.clipboard.writeText(passwordTwo);
 }
 
 
