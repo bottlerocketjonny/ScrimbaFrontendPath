@@ -1,5 +1,5 @@
 # ScrimbaFrontendPath
-Projects built on the Scrimba frontend path.
+Solo projects built on the Scrimba frontend path. All built from scratch using a Figma design file. 
 
 ## Notable deployments
 
