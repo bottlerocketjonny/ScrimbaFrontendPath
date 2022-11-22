@@ -1,0 +1,75 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    padding: 10px;
+}
+
+p:hover, h3:hover, h4:hover {
+  background-color: yellow;
+  border-radius: 50px;
+}
+
+.avatar {
+    width: 160px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #21263b; 
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #CBD8E6;
+    color: #21263b;
+    border-bottom: 7px solid #BB8B46;
+    border-radius: 20px;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+
+.zoom {
+  transition: transform .3s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
